@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Tahoma";
+    src: url(main.ttf);
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+h1 {
+    font-family: Tahoma;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Tahoma;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: Tahoma;
+    font-weight: normal;
+}
+
+.logobox {
+    width: 45%;
+    height: 32px;
+    text-align: left;
+    display: block;
+}
+
+.banner {
+    width: 45%;
+    height: 64px;
+    text-align: left;
+    display: block;
+    background: #FF3251;
+    background: linear-gradient(90deg,rgb(153, 0, 0) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.bannertext {
+    color: white;
+}
+
+.navbar {
+    width: 45%;
+    height: 24px;
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+    display: block;
+    background-color: #ece9d8;
+}
+
+.navurl {
+    color: black;
+    text-align: left;
+}
+
+.main {
+    width: 45%;
+    height: auto;
+    min-height: 512px;
+    text-align: center;
+    display: flow-root;
+    background-color: white;
+}
+.bottombar {
+    width: 45%;
+    height: 100px;
+    text-align: center;
+    display: inline flow-root;
+    background-color: white;
+}
+
+@media (max-width: 600px) {
+    
+    body {
+        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .logobox {
+        width: 100%;
+    }
+    .banner {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+    }
+    .bottombar {
+        display: inline-block;
+        width: 100%;
+    }
+}
