@@ -5,10 +5,10 @@
         ["index3.html#https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch2.png"],
         ["index3.html#https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch3.png"],
         ["index2.html#https://sic.pt/direto", "https://pestech28.github.io/back/digivision/v3r5054/ch4.png"],
-        ["index3.html#https://video-auth7.iol.pt/live_tvi/live_tvi/edge_servers/tvi-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xOC8yMDI2IDEyOjEyOjU4IEFNJmhhc2hfdmFsdWU9UXdEL0ViVWpjMWx1VHR2S0UrWm00QT09JnZhbGlkbWludXRlcz0xNDQwJmlkPTZhMzViODhjLTBjOWQtNDZhMy05MmFjLTc3YmZkMjI3NTg0Yg==", "https://pestech28.github.io/back/digivision/v3r5054/ch5.png"],
-        ["index3.html#https://video-auth7.iol.pt/live_tvi_ficcao/live_tvi_ficcao/edge_servers/tvificcao-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xNS8yMDI2IDEyOjEzOjM2IEFNJmhhc2hfdmFsdWU9TXJkVXVaSm8wa2tkWjd5SEhGbDZHUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPThlZWRjOGIyLWU3MjktNGY2My04ZjFiLWVlY2IzNTNjZDM1Nw==", "https://pestech28.github.io/back/digivision/v3r5054/ch6.png"],
-        ["index3.html#https://video-auth7.iol.pt/live_tvi_reality/live_tvi_reality/edge_servers/tvireality-720_passthrough/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xNS8yMDI2IDEyOjEzOjM2IEFNJmhhc2hfdmFsdWU9TXJkVXVaSm8wa2tkWjd5SEhGbDZHUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPThlZWRjOGIyLWU3MjktNGY2My04ZjFiLWVlY2IzNTNjZDM1Nw==", "https://pestech28.github.io/back/digivision/v3r5054/ch7.png"],
-        ["index3.html#https://video-auth7.iol.pt/live_vmais/live_vmais/edge_servers/vmais-720p/chunks.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xNS8yMDI2IDEyOjEzOjM2IEFNJmhhc2hfdmFsdWU9TXJkVXVaSm8wa2tkWjd5SEhGbDZHUT09JnZhbGlkbWludXRlcz0xNDQwJmlkPThlZWRjOGIyLWU3MjktNGY2My04ZjFiLWVlY2IzNTNjZDM1Nw==", "https://pestech28.github.io/back/digivision/v3r5054/ch8.png"],
+        ["index3.html#tvi", "https://pestech28.github.io/back/digivision/v3r5054/ch5.png"],
+        ["index3.html#tvificao", "https://pestech28.github.io/back/digivision/v3r5054/ch6.png"],
+        ["index3.html#tvireality", "https://pestech28.github.io/back/digivision/v3r5054/ch7.png"],
+        ["index3.html#v+", "https://pestech28.github.io/back/digivision/v3r5054/ch8.png"],
         ["index2.html#https://pluto.tv/us/watch/live-tv/#18785", "https://pestech28.github.io/back/digivision/v3r5054/ch9.png"],
         ["index2.html#https://www.newsnationnow.com/news-nation-live/", "https://pestech28.github.io/back/digivision/v3r5054/ch10.png"],
         ["index2.html#https://i1.weatherstar.dev/", "https://pestech28.github.io/back/digivision/v3r5054/ch11.png"],
@@ -19,6 +19,9 @@
         ["index2.html#https://pestech28.github.io/back/digivision/v3r5054/yt/tao.html", "https://pestech28.github.io/back/digivision/v3r5054/ch16.png"],
         ["index.html", "NULL"],
     ];
+    const tviurl = await tviget();
+    finaltvi = "index3.html#" + tviurl;
+    channeldb[5][0] = finaltvi;
     return channeldb;
 }
 
