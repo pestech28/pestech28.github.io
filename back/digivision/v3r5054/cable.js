@@ -19,11 +19,18 @@
         ["index2.html#https://pestech28.github.io/back/digivision/v3r5054/yt/tao.html", "https://pestech28.github.io/back/digivision/v3r5054/ch16.png"],
         ["index.html", "NULL"],
     ];
+
+    // Make sure your fetch function is named 'tviget'
     const tviurl = await tviget();
-    finaltvi = "index3.html#" + tviurl;
-    channeldb[5][0] = finaltvi;
-    return channeldb;
+    
+    if (tviurl) {
+        const finaltvi = "index3.html#" + tviurl;
+        channeldb[5][0] = finaltvi; // Correctly updates the 2D array slot
+    }
+    
+    return channeldb; 
 }
+
 
 function getchinfo() {
     let chinfodb = [
