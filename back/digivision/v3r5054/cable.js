@@ -74,19 +74,24 @@ function getwebchannels() {
     return channeldb;
 }
 
-async function tviget() {
-    url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
+function tviget() {
+    var urldat = tviurlget();
+}
+
+async function tviurlget() {
+  const url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
+  
   try {
     const response = await fetch(url);
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
-    const textData = await response.text();
     
-    // Store it in a variable
-    console.log(textData);
+    const textData = await response.text();
     return textData;
+    
   } catch (error) {
     console.error("Failed to fetch file:", error);
+    return null; 
   }
 }
