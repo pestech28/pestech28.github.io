@@ -19,6 +19,9 @@
         ["index2.html#https://pestech28.github.io/back/digivision/v3r5054/yt/tao.html", "https://pestech28.github.io/back/digivision/v3r5054/ch16.png"],
         ["index.html", "NULL"],
     ];
+    tviurl = tviget();
+    tviurl = "index3.html#" + tviurl;
+    channeldb[5][0] = tviurl
     return channeldb;
 }
 
