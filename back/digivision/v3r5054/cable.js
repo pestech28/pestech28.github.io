@@ -1,4 +1,4 @@
-﻿async function getchannels() {
+﻿function getchannels() {
     let channeldb = [
         ["index4.html", "NULL"],
         ["index3.html#https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch1.png"],
@@ -6,9 +6,9 @@
         ["index3.html#https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch3.png"],
         ["index2.html#https://sic.pt/direto", "https://pestech28.github.io/back/digivision/v3r5054/ch4.png"],
         ["index3.html#tvi", "https://pestech28.github.io/back/digivision/v3r5054/ch5.png"],
-        ["index3.html#tvificao", "https://pestech28.github.io/back/digivision/v3r5054/ch6.png"],
-        ["index3.html#tvireality", "https://pestech28.github.io/back/digivision/v3r5054/ch7.png"],
-        ["index3.html#v+", "https://pestech28.github.io/back/digivision/v3r5054/ch8.png"],
+        ["index3.html#tvific", "https://pestech28.github.io/back/digivision/v3r5054/ch6.png"],
+        ["index3.html#tvirel", "https://pestech28.github.io/back/digivision/v3r5054/ch7.png"],
+        ["index3.html#tvivps", "https://pestech28.github.io/back/digivision/v3r5054/ch8.png"],
         ["index2.html#https://pluto.tv/us/watch/live-tv/#18785", "https://pestech28.github.io/back/digivision/v3r5054/ch9.png"],
         ["index2.html#https://www.newsnationnow.com/news-nation-live/", "https://pestech28.github.io/back/digivision/v3r5054/ch10.png"],
         ["index2.html#https://i1.weatherstar.dev/", "https://pestech28.github.io/back/digivision/v3r5054/ch11.png"],
@@ -19,18 +19,8 @@
         ["index2.html#https://pestech28.github.io/back/digivision/v3r5054/yt/tao.html", "https://pestech28.github.io/back/digivision/v3r5054/ch16.png"],
         ["index.html", "NULL"],
     ];
-
-    // Make sure your fetch function is named 'tviget'
-    const tviurl = await tviget();
-    
-    if (tviurl) {
-        const finaltvi = "index3.html#" + tviurl;
-        channeldb[5][0] = finaltvi; // Correctly updates the 2D array slot
-    }
-    
-    return channeldb; 
+    return channeldb;
 }
-
 
 function getchinfo() {
     let chinfodb = [
@@ -84,25 +74,25 @@ function getwebchannels() {
     return channeldb;
 }
 
-async function tviget() {
-  const playlistUrl = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
-  try {
-    const response = await fetch(playlistUrl);
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    const textData = await response.text();
-    const match = textData.match(/https:\/\/\S+/);
+function tviget() {
+    const url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
     
-    if (match) {
-      return match[0];
-    } else {
-      console.warn("Stream URL not found in the file.");
-      return null;
+    try {
+        const xhr = new XMLHttpRequest();
+        // The 'false' parameter forces this to be synchronous (normal execution)
+        xhr.open("GET", url, false); 
+        xhr.send(null);
+
+        if (xhr.status === 200) {
+            // Find the line starting with https://
+            const match = xhr.responseText.match(/https:\/\/\S+/);
+            if (match) {
+                return match[0]; // Return the clean stream URL string
+            }
+        }
+    } catch (error) {
+        console.error("Failed to fetch GitHub file synchronously:", error);
     }
     
-  } catch (error) {
-    console.error("Failed to fetch or parse the file:", error);
-    return null;
-  }
+    return null; // Return null if the network request fails
 }
