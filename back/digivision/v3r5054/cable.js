@@ -19,9 +19,18 @@
         ["index2.html#https://pestech28.github.io/back/digivision/v3r5054/yt/tao.html", "https://pestech28.github.io/back/digivision/v3r5054/ch16.png"],
         ["index.html", "NULL"],
     ];
-    tviurl = tviget();
+    tviurl = tviget(1);
     tviurl = "index3.html#" + tviurl;
-    channeldb[5][0] = tviurl
+    channeldb[5][0] = tviurl;
+    tvificurl = tviget(2);
+    tvificurl = "index3.html#" + tvificurl;
+    channeldb[6][0] = tvificurl;
+    tvirelurl = tviget(3);
+    tvirelurl = "index3.html#" + tvirelurl;
+    channeldb[7][0] = tvirelurl;
+    tvivmsurl = tviget(4);
+    tvivmsurl = "index3.html#" + tviurl;
+    channeldb[8][0] = tvivmsurl;
     return channeldb;
 }
 
@@ -77,25 +86,35 @@ function getwebchannels() {
     return channeldb;
 }
 
-function tviget() {
-    const url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
+function tviget(flagger) {
+    let url = "";
+    if (flagger == 1) {
+        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
+    }
+    if (flagger == 2) {
+        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI_Ficcao.m3u8";
+    }
+    if (flagger == 3) {
+        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI_Reality.m3u8";
+    }
+    if (flagger == 4) {
+        url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI_Reality.m3u8";
+    }
     
     try {
-        const xhr = new XMLHttpRequest();
-        // The 'false' parameter forces this to be synchronous (normal execution)
+        xhr = new XMLHttpRequest();
         xhr.open("GET", url, false); 
         xhr.send(null);
 
         if (xhr.status === 200) {
-            // Find the line starting with https://
-            const match = xhr.responseText.match(/https:\/\/\S+/);
+            match = xhr.responseText.match(/https:\/\/\S+/);
             if (match) {
-                return match[0]; // Return the clean stream URL string
+                return match[0];
             }
         }
     } catch (error) {
         console.error("Failed to fetch GitHub file synchronously:", error);
     }
     
-    return null; // Return null if the network request fails
+    return null;
 }
