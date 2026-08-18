@@ -74,24 +74,25 @@ function getwebchannels() {
     return channeldb;
 }
 
-function tviget() {
-    var urldat = tviurlget();
-}
-
-async function tviurlget() {
-  const url = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
-  
+async function tviget() {
+  const playlistUrl = "https://raw.githubusercontent.com/LITUATUI/M3UPT/refs/heads/main/M3U/TVI.m3u8";
   try {
-    const response = await fetch(url);
+    const response = await fetch(playlistUrl);
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
-    
     const textData = await response.text();
-    return textData;
+    const match = textData.match(/https:\/\/\S+/);
+    
+    if (match) {
+      return match[0];
+    } else {
+      console.warn("Stream URL not found in the file.");
+      return null;
+    }
     
   } catch (error) {
-    console.error("Failed to fetch file:", error);
-    return null; 
+    console.error("Failed to fetch or parse the file:", error);
+    return null;
   }
 }
