@@ -29,7 +29,7 @@
     tvirelurl = "index3.html#" + tvirelurl;
     channeldb[7][0] = tvirelurl;
     tvivmsurl = tviget(4);
-    tvivmsurl = "index3.html#" + tviurl;
+    tvivmsurl = "index3.html#" + tvivmsurl;
     channeldb[8][0] = tvivmsurl;
     return channeldb;
 }
