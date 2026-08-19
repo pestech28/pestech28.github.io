@@ -60,29 +60,36 @@ function getchinfo() {
 
 function getwebchannels() {
     let channeldb = [
-        ["https://sweet.tv/sk/tv/847-jednotka-hd", "https://pestech28.github.io/back/digivision/v3r5054/ch1.png"],
-        ["https://sweet.tv/sk/tv/848-dvojka-hd", "https://pestech28.github.io/back/digivision/v3r5054/ch2.png"],
-        ["https://media.joj.sk/embed/3Yz1gBQeKTs?autoplay=1", "https://pestech28.github.io/back/digivision/v3r5054/ch3.png"],
-        ["https://media.joj.sk/embed/DKZwKhUlv3r5054i?autoplay=1", "https://pestech28.github.io/back/digivision/v3r5054/ch4.png"],
-        ["index2.html#https://live.cdn.joj.sk/live/andromeda/joj_news-1080.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch5.png"],
-        ["index2.html#https://live.cdn.joj.sk/live/andromeda/jojko-1080.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch6.png"],
-        ["https://media.cms.markiza.sk/embed/markiza-live?autoplay=any", "https://pestech28.github.io/back/digivision/v3r5054/ch7.png"],
-        ["https://media.cms.markiza.sk/embed/doma-live?autoplay=any", "https://pestech28.github.io/back/digivision/v3r5054/ch8.png"],
-        ["https://media.cms.markiza.sk/embed/dajto-live?autoplay=any", "https://pestech28.github.io/back/digivision/v3r5054/ch9.png"],
-        ["https://media.cms.markiza.sk/embed/klasik-live?autoplay=any", "https://pestech28.github.io/back/digivision/v3r5054/ch10.png"],
-        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_history-1080.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch11.png"],
-        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch12.png"],
-        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch13.png"],
-        ["https://www.ta3.com/live", "https://pestech28.github.io/back/digivision/v3r5054/ch14.png"],
-        ["https://pluto.tv/us/watch/live-tv/#18785", "https://pestech28.github.io/back/digivision/v3r5054/ch15.png"],
-        ["https://pestech28.github.io/back/digivision/v3r5054/yt/thehill.html", "https://pestech28.github.io/back/digivision/v3r5054/ch16.png"],
-        ["https://i1.weatherstar.dev/", "https://pestech28.github.io/back/digivision/v3r5054/ch17.png"],
-        ["index2.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch18.png"],
-        ["index2.html#https://asp7.toonamiaftermath.com/livehttporigin/est/Ibd7c5-xHCbpk-playlist.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch19.png"],
-        ["https://pluto.tv/us/watch/live-tv/#18785", "https://pestech28.github.io/back/digivision/v3r5054/ch20.png"],
-        ["https://pluto.tv/us/watch/live-tv/#31215", "https://pestech28.github.io/back/digivision/v3r5054/ch21.png"],
-        ["https://pestech28.github.io/back/digivision/v3r5054/yt/tao.html", "https://pestech28.github.io/back/digivision/v3r5054/ch22.png"],
+        ["index2.html#https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch1.png"],
+        ["index2.html#https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch2.png"],
+        ["index2.html#https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch3.png"],
+        ["https://sic.pt/direto", "https://pestech28.github.io/back/digivision/v3r5054/ch4.png"],
+        ["index2.html#tvi", "https://pestech28.github.io/back/digivision/v3r5054/ch5.png"],
+        ["index2.html#tvific", "https://pestech28.github.io/back/digivision/v3r5054/ch6.png"],
+        ["index2.html#tvirel", "https://pestech28.github.io/back/digivision/v3r5054/ch7.png"],
+        ["index2.html#tvivps", "https://pestech28.github.io/back/digivision/v3r5054/ch8.png"],
+        ["https://pluto.tv/us/watch/live-tv/#18785", "https://pestech28.github.io/back/digivision/v3r5054/ch9.png"],
+        ["https://www.newsnationnow.com/news-nation-live/", "https://pestech28.github.io/back/digivision/v3r5054/ch10.png"],
+        ["https://i1.weatherstar.dev/", "https://pestech28.github.io/back/digivision/v3r5054/ch11.png"],
+        ["index2.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch12.png"],
+        ["index2.html#https://asp7.toonamiaftermath.com/livehttporigin/est/Ibd7c5-xHCbpk-playlist.m3u8", "https://pestech28.github.io/back/digivision/v3r5054/ch13.png"],
+        ["https://pluto.tv/us/watch/live-tv/#18785", "https://pestech28.github.io/back/digivision/v3r5054/ch14.png"],
+        ["https://pluto.tv/us/watch/live-tv/#31215", "https://pestech28.github.io/back/digivision/v3r5054/ch15.png"],
+        ["https://pestech28.github.io/back/digivision/v3r5054/yt/tao.html", "https://pestech28.github.io/back/digivision/v3r5054/ch16.png"],
+
     ];
+    tviurl = tviget(1);
+    tviurl = "index3.html#" + tviurl;
+    channeldb[5][0] = tviurl;
+    tvificurl = tviget(2);
+    tvificurl = "index3.html#" + tvificurl;
+    channeldb[6][0] = tvificurl;
+    tvirelurl = tviget(3);
+    tvirelurl = "index3.html#" + tvirelurl;
+    channeldb[7][0] = tvirelurl;
+    tvivmsurl = tviget(4);
+    tvivmsurl = "index3.html#" + tvivmsurl;
+    channeldb[8][0] = tvivmsurl;
     return channeldb;
 }
 
