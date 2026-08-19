@@ -79,16 +79,16 @@ function getwebchannels() {
 
     ];
     tviurl = tviget(1);
-    tviurl = "index3.html#" + tviurl;
+    tviurl = "index2.html#" + tviurl;
     channeldb[4][0] = tviurl;
     tvificurl = tviget(2);
-    tvificurl = "index3.html#" + tvificurl;
+    tvificurl = "index2.html#" + tvificurl;
     channeldb[5][0] = tvificurl;
     tvirelurl = tviget(3);
-    tvirelurl = "index3.html#" + tvirelurl;
+    tvirelurl = "index2.html#" + tvirelurl;
     channeldb[6][0] = tvirelurl;
     tvivmsurl = tviget(4);
-    tvivmsurl = "index3.html#" + tvivmsurl;
+    tvivmsurl = "index2.html#" + tvivmsurl;
     channeldb[7][0] = tvivmsurl;
     return channeldb;
 }
