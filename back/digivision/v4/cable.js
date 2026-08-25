@@ -15,7 +15,7 @@
         ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://pestech28.github.io/back/digivision/v4/ch12.png"],
         ["index2.html#https://www.ta3.com/live", "https://pestech28.github.io/back/digivision/v4/ch13.png"],
         ["index2.html#https://pluto.tv/us/watch/live-tv/#18785", "https://pestech28.github.io/back/digivision/v4/ch14.png"],
-        ["index2.html#https://pestech28.github.io/back/digivision/v4/yt/thehill.html", "https://pestech28.github.io/back/digivision/v4/ch15.png"],
+        ["index2.html#https://www.newsnationnow.com/news-nation-live/", "https://pestech28.github.io/back/digivision/v4/ch15.png"],
         ["index2.html#https://i1.weatherstar.dev/", "https://pestech28.github.io/back/digivision/v4/ch16.png"],
         ["index3.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/digivision/v4/ch17.png"],
         ["index3.html#https://asp7.toonamiaftermath.com/livehttporigin/est/Ibd7c5-xHCbpk-playlist.m3u8", "https://pestech28.github.io/back/digivision/v4/ch18.png"],
