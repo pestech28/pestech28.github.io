@@ -58,6 +58,7 @@ function getchinfo() {
         ["CS Film", "Filmový kanál"],
         ["CS Mystery", "Mysteriózne filmy"],
         ["TA3", "Správy 24 hodín denne, 7 dní v týždni"],
+        ["Prima SK", "Televízne programy a filmy"],
         ["CNN Prima", "Správy 24 hodín denne, 7 dní v týždni"],
         ["Disney Channel", "kreslené filmy"],
         ["News Nation", "Non bias news 24/7"],
