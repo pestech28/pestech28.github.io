@@ -96,12 +96,12 @@ function getwebchannels() {
         ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch19.png"],
         ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch20.png"],
         ["https://www.ta3.com/live", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch21.png"],
-        ["https://pluto.tv/us/live-tv/5f36d726234ce10007784f2a", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch22.png"],
-        ["https://www.newsnationnow.com/news-nation-live/", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch23.png"],
-        ["http://v1.weatherscan.net/", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch24.png"],
-        ["index2.html#https://retroblast.tv/hls/stream.m3u8", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch25.png"],
-        ["index2.html#https://asp7.toonamiaftermath.com/livehttporigin/est/Ibd7c5-xHCbpk-playlist.m3u8", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch26.png"],
-        ["index2.html#https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch27.png"],
+        ["#https://www.iprima.cz/zive/prima", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch22.png"],
+        ["https://cnn.iprima.cz/vysilani", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch23.png"],
+        ["https://garden-tv.mobi/en/channel/DisneyChannel.cz", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch24.png"],
+        ["https://www.newsnationnow.com/news-nation-live/", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch25.png"],
+        ["http://v1.weatherscan.net/", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch26.png"],
+        ["index2.html#https://retroblast.tv/hls/stream.m3u8", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch27.png"],
         ["https://backend-mrdannyarmstrong.github.io/digivision/v4/yt/tao.html", "https://backend-mrdannyarmstrong.github.io/digivision/v4/ch28.png"],
     ];
     return channeldb;
