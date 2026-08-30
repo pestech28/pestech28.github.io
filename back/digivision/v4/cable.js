@@ -93,7 +93,7 @@ function getwebchannels() {
         ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://pestech28.github.io/back/digivision/v4/ch19.png"],
         ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://pestech28.github.io/back/digivision/v4/ch20.png"],
         ["https://www.ta3.com/live", "https://pestech28.github.io/back/digivision/v4/ch21.png"],
-        ["#https://www.iprima.cz/zive/prima", "https://pestech28.github.io/back/digivision/v4/ch22.png"],
+        ["https://www.iprima.cz/zive/prima", "https://pestech28.github.io/back/digivision/v4/ch22.png"],
         ["https://cnn.iprima.cz/vysilani", "https://pestech28.github.io/back/digivision/v4/ch23.png"],
         ["https://garden-tv.mobi/en/channel/DisneyChannel.cz", "https://pestech28.github.io/back/digivision/v4/ch24.png"],
         ["https://www.newsnationnow.com/news-nation-live/", "https://pestech28.github.io/back/digivision/v4/ch25.png"],
