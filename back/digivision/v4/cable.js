@@ -60,13 +60,9 @@ function getchinfo() {
         ["TA3", "Správy 24 hodín denne, 7 dní v týždni"],
         ["CNN Prima", "Správy 24 hodín denne, 7 dní v týždni"],
         ["Disney Channel", "kreslené filmy"],
-        ["Bob Ross", "Joy of Painting"],
         ["News Nation", "Non bias news 24/7"],
         ["Weather Scan", "Weather info 24/7"],
         ["Cartoon Network", "Cartoons"],
-        ["Toonami Aftermath", "Cartoons and Anime"],
-        ["TNT", "Movies TV shows and sports"],
-        ["Hi-Yah!", "Asian flicks"],
         ["Zen Music", "Traditional Asian music 24/7"],
         ["Channel Name", "Channel Description"],
     ];
