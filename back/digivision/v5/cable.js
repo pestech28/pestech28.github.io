@@ -112,10 +112,18 @@ function getwebchannels() {
         ["https://www.iprima.cz/zive/prima", "https://pestech28.github.io/back/digivision/v5/ch22.png"],
         ["https://cnn.iprima.cz/vysilani", "https://pestech28.github.io/back/digivision/v5/ch23.png"],
         ["https://garden-tv.mobi/en/channel/DisneyChannel.cz", "https://pestech28.github.io/back/digivision/v5/ch24.png"],
-        ["https://www.newsnationnow.com/news-nation-live/", "https://pestech28.github.io/back/digivision/v5/ch25.png"],
-        ["http://v1.weatherscan.net/", "https://pestech28.github.io/back/digivision/v5/ch26.png"],
-        ["index2.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/digivision/v5/ch27.png"],
-        ["https://pestech28.github.io/back/digivision/v5/yt/tao.html", "https://pestech28.github.io/back/digivision/v5/ch28.png"],
+        ["https://mov3.co/nhk.html", "https://pestech28.github.io/back/digivision/v5/ch25.png"],
+        ["https://tvivu.com/watch/nhk-e-jp", "https://pestech28.github.io/back/digivision/v5/ch26.png"],
+        ["https://mov3.co/ntv.html", "https://pestech28.github.io/back/digivision/v5/ch27.png"],
+        ["https://mov3.co/tvasahi.html", "https://pestech28.github.io/back/digivision/v5/ch28.png"],
+        ["https://mov3.co/tbs.html", "https://pestech28.github.io/back/digivision/v5/ch29.png"],
+        ["https://mov3.co/tvtokyo.html", "https://pestech28.github.io/back/digivision/v5/ch30.png"],
+        ["https://mov3.co/fujitv.html", "https://pestech28.github.io/back/digivision/v5/ch31.png"],
+        ["https://ok.ru/videoembed/16358768582178", "https://pestech28.github.io/back/digivision/v5/ch32.png"],
+        ["https://www.newsnationnow.com/news-nation-live/", "https://pestech28.github.io/back/digivision/v5/ch33.png"],
+        ["http://v1.weatherscan.net/", "https://pestech28.github.io/back/digivision/v5/ch34.png"],
+        ["index2.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/digivision/v5/ch35.png"],
+        ["https://pestech28.github.io/back/digivision/v5/yt/tao.html", "https://pestech28.github.io/back/digivision/v5/ch36.png"],
     ];
     return channeldb;
 }
