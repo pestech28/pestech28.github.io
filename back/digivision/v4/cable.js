@@ -30,6 +30,8 @@
         ["index3.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/digivision/v4/ch27.png"],
         ["index2.html#https://pestech28.github.io/back/digivision/v4/yt/tao.html", "https://pestech28.github.io/back/digivision/v4/ch28.png"],
         ["index.html", "NULL"],
+        ["index2.html#https://pestech28.github.io/back/digivision/v4/yt/ert.html", "https://pestech28.github.io/back/digivision/v4/ch30.png"],
+        ["index.html", "NULL"],
     ];
     return channeldb;
 }
@@ -66,6 +68,8 @@ function getchinfo() {
         ["Cartoon Network", "Cartoons"],
         ["Zen Music", "Traditional Asian music 24/7"],
         ["Channel Name", "Channel Description"],
+        ["ERT", "ERT"],
+        ["Channel Name", "Channel Description"],
     ];
     return chinfodb;
 }
@@ -100,6 +104,7 @@ function getwebchannels() {
         ["http://v1.weatherscan.net/", "https://pestech28.github.io/back/digivision/v4/ch26.png"],
         ["index2.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/digivision/v4/ch27.png"],
         ["https://pestech28.github.io/back/digivision/v4/yt/tao.html", "https://pestech28.github.io/back/digivision/v4/ch28.png"],
+        ["https://pestech28.github.io/back/digivision/v4/yt/ert.html", "https://pestech28.github.io/back/digivision/v4/ch30.png"],
     ];
     return channeldb;
 }
