@@ -29,7 +29,6 @@
         ["index2.html#http://v1.weatherscan.net/", "https://pestech28.github.io/back/digivision/v4/ch26.png"],
         ["index3.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/digivision/v4/ch27.png"],
         ["index2.html#https://pestech28.github.io/back/digivision/v4/yt/tao.html", "https://pestech28.github.io/back/digivision/v4/ch28.png"],
-        ["index.html", "NULL"],
         ["index2.html#https://pestech28.github.io/back/digivision/v4/yt/ert.html", "https://pestech28.github.io/back/digivision/v4/ch30.png"],
         ["index.html", "NULL"],
     ];
@@ -67,8 +66,7 @@ function getchinfo() {
         ["Weather Scan", "Weather info 24/7"],
         ["Cartoon Network", "Cartoons"],
         ["Zen Music", "Traditional Asian music 24/7"],
-        ["Channel Name", "Channel Description"],
-        ["ERT", "ERT"],
+        ["ERT", "Esperanto-televido 24 horojn tage, 7 tagojn semajne"],
         ["Channel Name", "Channel Description"],
     ];
     return chinfodb;
