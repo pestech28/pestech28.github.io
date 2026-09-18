@@ -1,10 +1,10 @@
 ﻿function getchannels() {
     let channeldb = [
         ["index4.html", "NULL"],
-        ["index2.html#https://sweet.tv/sk/tv/847-jednotka-hd", "https://pestech28.github.io/back/tvnet/v1/ch1.png"],
-        ["index2.html#https://sweet.tv/sk/tv/848-dvojka-hd", "https://pestech28.github.io/back/tvnet/v1/ch2.png"],
-        ["index2.html#https://sweet.tv/sk/tv/849-24-hd", "https://pestech28.github.io/back/tvnet/v1/ch3.png"],
-        ["index2.html#https://sweet.tv/sk/tv/850-sport-hd", "https://pestech28.github.io/back/tvnet/v1/ch4.png"],
+        ["index2.html#https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch1.png"],
+        ["index2.html#https://www.stvr.sk/embed/live/2?embed_page_category=televizia%3Blive-2%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch2.png"],
+        ["index2.html#https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch3.png"],
+        ["index2.html#https://www.stvr.sk/embed/live/15?embed_page_category=televizia%3Bsport%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch4.png"],
         ["index2.html#https://media.joj.sk/embed/3Yz1gBQeKTs?autoplay=1", "https://pestech28.github.io/back/tvnet/v1/ch5.png"],
         ["index2.html#https://media.joj.sk/embed/DKZwKhUlV3i?autoplay=1", "https://pestech28.github.io/back/tvnet/v1/ch6.png"],
         ["index2.html#https://media.joj.sk/embed/3al7RoqzT3y?autoplay=1", "https://pestech28.github.io/back/tvnet/v1/ch7.png"],
@@ -72,10 +72,10 @@ function getchinfo() {
 
 function getwebchannels() {
     let channeldb = [
-        ["https://sweet.tv/sk/tv/847-jednotka-hd", "https://pestech28.github.io/back/tvnet/v1/ch1.png"],
-        ["https://sweet.tv/sk/tv/848-dvojka-hd", "https://pestech28.github.io/back/tvnet/v1/ch2.png"],
-        ["https://sweet.tv/sk/tv/849-24-hd", "https://pestech28.github.io/back/tvnet/v1/ch3.png"],
-        ["https://sweet.tv/sk/tv/850-sport-hd", "https://pestech28.github.io/back/tvnet/v1/ch4.png"],
+        ["https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch1.png"],
+        ["https://www.stvr.sk/embed/live/2?embed_page_category=televizia%3Blive-2%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch2.png"],
+        ["https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch3.png"],
+        ["https://www.stvr.sk/embed/live/15?embed_page_category=televizia%3Bsport%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch4.png"],
         ["https://media.joj.sk/embed/3Yz1gBQeKTs?autoplay=1", "https://pestech28.github.io/back/tvnet/v1/ch5.png"],
         ["https://media.joj.sk/embed/DKZwKhUlV3i?autoplay=1", "https://pestech28.github.io/back/tvnet/v1/ch6.png"],
         ["https://media.joj.sk/embed/3al7RoqzT3y?autoplay=1", "https://pestech28.github.io/back/tvnet/v1/ch7.png"],
