@@ -33,7 +33,6 @@ function getchinfo() {
         ["TNT", "Movies TV shows and sports"],
         ["Cartoon Network", "Cartoons"],
         ["FOX Sports", "Sports"],
-        ["KBS World", "한국 관련 콘텐츠"],
         ["KBS1", "일반 콘텐츠"],
         ["KBS2", "버라이어티 콘텐츠"],
         ["KBS24", "24시간 뉴스"],
@@ -41,6 +40,7 @@ function getchinfo() {
         ["EBS2", "추가 교육 콘텐츠"],
         ["MBC", "드라마"],
         ["SBS", "버라이어티 콘텐츠"],
+        ["KCTV", "조선의 TV"],
         ["Channel Name", "Channel Description"],
     ];
     return chinfodb;
