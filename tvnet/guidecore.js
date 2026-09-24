@@ -1,5 +1,5 @@
 function bootguide() {
-    for (i = 0; i < channels.length; i++) {
+    for (i = 0; i < 8; i++) {
         if (channels[i][0] == "index.html") {
             console.log("NULL Channel skipped")
         } 
@@ -12,6 +12,20 @@ function bootguide() {
     }
 }
 
+function bootsecretguide() {
+    for (i = 8; i < channels.length; i++) {
+        if (channels[i][0] == "index.html") {
+            console.log("NULL Channel skipped")
+        } 
+        if (channels[i][0] == "index4.html") {
+            console.log("NULL Channel skipped")
+        } 
+        else {
+            guidebody.innerHTML += '<a href="' + channels[i][0] + '"><div class="chanbox"><img src="' + channels[i][1] + '"></a></div>'
+        }
+    }
+    goldidol.style.display = "none";
+}
 
 function getclock() {
     const now = new Date;
