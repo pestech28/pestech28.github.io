@@ -56,14 +56,14 @@ function getwebchannels() {
         ["index2.html#https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch6.png"],
         ["index2.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch7.png"],
         ["https://tvnow247.top/embed/fox-sports-1-usa", "https://pestech28.github.io/back/tvnet/v1r6b72/ch8.png"],
-        ["index2.html#https://stream8.cinerama.uz/1448/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch9.png"],
-        ["https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=11&ch_type=globalList", "https://pestech28.github.io/back/tvnet/v1r6b72/ch10.png"],
-        ["https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=12&ch_type=globalList", "https://pestech28.github.io/back/tvnet/v1r6b72/ch11.png"],
-        ["https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=81&ch_type=globalList", "https://pestech28.github.io/back/tvnet/v1r6b72/ch12.png"],
-        ["index2.html#https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch13.png"],
-        ["index2.html#https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch14.png"],
-        ["index2.html#http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch15.png"],
-        ["index2.html#https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch16.png"],
+        ["https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=11&ch_type=globalList", "https://pestech28.github.io/back/tvnet/v1r6b72/ch9.png"],
+        ["https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=12&ch_type=globalList", "https://pestech28.github.io/back/tvnet/v1r6b72/ch10.png"],
+        ["https://onair.kbs.co.kr/index.html?sname=onair&stype=live&ch_code=81&ch_type=globalList", "https://pestech28.github.io/back/tvnet/v1r6b72/ch11.png"],
+        ["index2.html#https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch12.png"],
+        ["index2.html#https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch13.png"],
+        ["index2.html#http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch14.png"],
+        ["index2.html#https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch15.png"],
+        ["index2.html#https://stream.intchoson.com/kctv/index.m3u8", "https://pestech28.github.io/back/tvnet/v1r6b72/ch16.png"],
     ];
     return channeldb;
 }
