@@ -16,7 +16,7 @@ function getchinfo() {
         ["NEWSNAT", "Non bias news 24/7"],
         ["TWC", "Weather info 24/7"],
         ["TOON", "Cartoons"],
-        ["TOONAMI Aftermath", "Cartoons and Anime"],
+        ["TOONAMI", "Cartoons and Anime"],
         ["CHN", "No Information available"],
     ];
     return chinfodb;
