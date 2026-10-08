@@ -31,7 +31,7 @@ function getchinfo() {
         ["Weather Scan", "Weather info 24/7"],
         ["E!", "TV Shows"],
         ["TNT", "Movies TV shows and sports"],
-        ["Cartoon Network", "Cartoons"],
+        ["Toonami Aftermath", "Cartoons or Anime"],
         ["FOX Sports", "Sports"],
         ["PTS", "一般內容"],
         ["CTV", "戲劇"],
