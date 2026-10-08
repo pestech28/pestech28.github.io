@@ -1,13 +1,13 @@
-﻿function getchannels() {
+function getchannels() {
     let channeldb = [
         ["index4.html", "NULL"],
         ["index3.html#https://pbs.lls.cdn.pbs.org/est/index.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch1.png"],
         ["index2.html#https://www.wwlp.com/watch-live/", "https://pestech28.github.io/back/tvnet/beta/ch2.png"],
         ["index2.html#https://www.newsnationnow.com/news-nation-live/", "https://pestech28.github.io/back/tvnet/beta/ch3.png"],
         ["index2.html#https://v2.weatherscan.net/", "https://pestech28.github.io/back/tvnet/beta/ch4.png"],
-        ["index2.html#https://tvnow247.top/embed/e-entertainment-television", "https://pestech28.github.io/back/tvnet/beta/ch5.png"],
+        ["index2.html#https://tvnow247.top/embed-cast/e-entertainment-television", "https://pestech28.github.io/back/tvnet/beta/ch5.png"],
         ["index3.html#https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch6.png"],
-        ["index3.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch7.png"],
+        ["index3.html#https://asp7.toonamiaftermath.com/livehttporigin/est/Ibd7c5-xHCbpk-playlist.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch7.png"],
         ["index2.html#https://tvnow247.top/embed/fox-sports-1-usa", "https://pestech28.github.io/back/tvnet/beta/ch8.png"],
         ["index2.html#https://pestech28.github.io/back/tvnet/beta/yt/ch9.html", "https://pestech28.github.io/back/tvnet/beta/ch9.png"],
         ["index2.html#https://pestech28.github.io/back/tvnet/beta/yt/ch10.html", "https://pestech28.github.io/back/tvnet/beta/ch10.png"],
