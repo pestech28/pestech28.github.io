@@ -3,7 +3,7 @@
         ["index4.html", "NULL"],
         ["index2.html#https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch1.png"],
         ["index2.html#https://www.stvr.sk/embed/live/2?embed_page_category=televizia%3Blive-2%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch2.png"],
-        ["index2.html#https://www.stvr.sk/embed/live/1?embed_page_category=televizia%3Blive-1%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch3.png"],
+        ["index2.html#https://www.stvr.sk/embed/live/3?embed_page_category=televizia%3Blive-24%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch3.png"],
         ["index2.html#https://www.stvr.sk/embed/live/15?embed_page_category=televizia%3Bsport%3B&ima_enabled=1", "https://pestech28.github.io/back/tvnet/v1/ch4.png"],
         ["index2.html#https://media.joj.sk/embed/3Yz1gBQeKTs?autoplay=1", "https://pestech28.github.io/back/tvnet/v1/ch5.png"],
         ["index2.html#https://media.joj.sk/embed/DKZwKhUlV3i?autoplay=1", "https://pestech28.github.io/back/tvnet/v1/ch6.png"],
