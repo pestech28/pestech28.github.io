@@ -19,6 +19,14 @@
         ["index2.html#https://player.pl/live/tv-4,11046757", "https://pestech28.github.io/back/tvnet/beta/ch16.png"],
         ["index2.html#https://player.pl/live/tv-puls,9353728", "https://pestech28.github.io/back/tvnet/beta/ch17.png"],
         ["index3.html#https://stream.4fun.tv:8888/hls/4f.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch18.png"],
+        ["index2.html#http://mov3.co/embednhk.html?nochat=1", "https://pestech28.github.io/back/tvnet/beta/ch19.png"],
+        ["index3.html#https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch20.png"],
+        ["index2.html#http://mov3.co/embedntv.html", "https://pestech28.github.io/back/tvnet/beta/ch21.png"],
+        ["index2.html#http://mov3.co/embedtvasahi.html", "https://pestech28.github.io/back/tvnet/beta/ch22.png"],
+        ["index2.html#http://mov3.co/embedtbs.html", "https://pestech28.github.io/back/tvnet/beta/ch23.png"],
+        ["index2.html#http://mov3.co/embedtvtokyo.html", "https://pestech28.github.io/back/tvnet/beta/ch24.png"],
+        ["index2.html#http://mov3.co/embedfujitv.html", "https://pestech28.github.io/back/tvnet/beta/ch25.png"],
+        ["index2.html#https://ok.ru/videoembed/16516993981959", "https://pestech28.github.io/back/tvnet/beta/ch26.png"],
         ["index.html", "NULL"],
     ];
     return channeldb;
@@ -45,6 +53,14 @@ function getchinfo() {
         ["TV4", "Seriale i filmy"],
         ["TV Pulse", "programy rozrywkowe i filmy"],
         ["4FUN", "Teledyski"],
+        ["NHK-G", "一般的なコンテンツ"],
+        ["NHK-E", "教育コンテンツ"],
+        ["NTV", "テレビ番組とニュース"],
+        ["TV Asahi", "バラエティ番組"],
+        ["TBS", "テレビ番組"],
+        ["TV Tokyo", "テレビ番組とアニメ"],
+        ["Fuji TV", "テレビ番組とアニメ"],
+        ["Tokyo MX", "アニメ"],
         ["Channel Name", "Channel Description"],
     ];
     return chinfodb;
@@ -69,7 +85,15 @@ function getwebchannels() {
         ["index2.html#https://cdn-s-lb2.pluscdn.pl/lv/1517830/349/hls/f03a76f3/masterlist.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch15.png"],
         ["https://player.pl/live/tv-4,11046757", "https://pestech28.github.io/back/tvnet/beta/ch16.png"],
         ["https://player.pl/live/tv-puls,9353728", "https://pestech28.github.io/back/tvnet/beta/ch17.png"],
-        ["index2.html#https://stream.4fun.tv:8888/hls/4f.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch18.png"],
+        ["https://stream.4fun.tv:8888/hls/4f.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch18.png"],
+        ["http://mov3.co/embednhk.html?nochat=1", "https://pestech28.github.io/back/tvnet/beta/ch19.png"],
+        ["index2.html#https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8", "https://pestech28.github.io/back/tvnet/beta/ch20.png"],
+        ["http://mov3.co/embedntv.html", "https://pestech28.github.io/back/tvnet/beta/ch21.png"],
+        ["http://mov3.co/embedtvasahi.html", "https://pestech28.github.io/back/tvnet/beta/ch22.png"],
+        ["http://mov3.co/embedtbs.html", "https://pestech28.github.io/back/tvnet/beta/ch23.png"],
+        ["http://mov3.co/embedtvtokyo.html", "https://pestech28.github.io/back/tvnet/beta/ch24.png"],
+        ["http://mov3.co/embedfujitv.html", "https://pestech28.github.io/back/tvnet/beta/ch25.png"],
+        ["https://ok.ru/videoembed/16516993981959", "https://pestech28.github.io/back/tvnet/beta/ch26.png"],
     ];
     return channeldb;
 }
