@@ -73,6 +73,7 @@ function getchinfo() {
 
 function getwebchannels() {
     let channeldb = [
+        ["index2.html#https://streaming-live.rtp.pt/liverepeater/rtp1HD.smil/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v3/ch1.png"],
         ["index2.html#https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v3/ch2.png"],
         ["index2.html#https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8", "https://pestech28.github.io/back/tvnet/v3/ch3.png"],
         ["https://sic.pt/direto", "https://pestech28.github.io/back/tvnet/v3/ch4.png"],
