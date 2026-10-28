@@ -7,7 +7,7 @@
         ["index2.html#https://v2.weatherscan.net/", "https://pestech28.github.io/back/tvazul/ch4.png"],
         ["index2.html#https://tvnow247.top/embed/e-entertainment-television", "https://pestech28.github.io/back/tvazul/ch5.png"],
         ["index3.html#https://turnerlive.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8", "https://pestech28.github.io/back/tvazul/ch6.png"],
-        ["index3.html#https://retroblast.tv/hls/stream.m3u8", "https://pestech28.github.io/back/tvazul/ch7.png"],
+        ["index2.html#https://tvnow247.top/embed-r4/cartoon-network", "https://pestech28.github.io/back/tvazul/ch7.png"],
         ["index3.html#https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8", "https://pestech28.github.io/back/tvazul/ch8.png"],
         ["index.html", "NULL"],
     ];
