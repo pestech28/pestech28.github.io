@@ -15,7 +15,7 @@
         ["index2.html#https://www.stvr.sk/embed/live/15?embed_page_category=televizia%3Bsport%3B&ima_enabled=1", "https://pestech28.github.io/back/tvazul/ch12.png"],
         ["index2.html#https://media.joj.sk/embed/3Yz1gBQeKTs?autoplay=1", "https://pestech28.github.io/back/tvazul/ch13.png"],
         ["index2.html#https://media.joj.sk/embed/DKZwKhUlV3i?autoplay=1", "https://pestech28.github.io/back/tvazul/ch14.png"],
-        ["index2.html#https://media.joj.sk/embed/3al7RoqzT3y?autoplay=1", "https://pestech28.github.io/back/tvazul/tvazul/ch15.png"],
+        ["index2.html#https://media.joj.sk/embed/3al7RoqzT3y?autoplay=1", "https://pestech28.github.io/back/tvazul/ch15.png"],
         ["index3.html#https://live.cdn.joj.sk/live/andromeda/joj_sport-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch16.png"],
         ["index3.html#https://live.cdn.joj.sk/live/andromeda/joj_news-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch17.png"],
         ["index3.html#https://live.cdn.joj.sk/live/andromeda/family-720.m3u8", "https://pestech28.github.io/back/tvazul/ch18.png"],
@@ -34,7 +34,7 @@
     return channeldb;
 }
 
-function getchinfo() {
+function getchinfo() {1
     let chinfodb = [
         ["Channel Name", "Channel Description"],
         ["PBS", "General Content"],
@@ -86,7 +86,7 @@ function getwebchannels() {
         ["https://www.stvr.sk/embed/live/15?embed_page_category=televizia%3Bsport%3B&ima_enabled=1", "https://pestech28.github.io/back/tvazul/ch12.png"],
         ["https://media.joj.sk/embed/3Yz1gBQeKTs?autoplay=1", "https://pestech28.github.io/back/tvazul/ch13.png"],
         ["https://media.joj.sk/embed/DKZwKhUlV3i?autoplay=1", "https://pestech28.github.io/back/tvazul/ch14.png"],
-        ["https://media.joj.sk/embed/3al7RoqzT3y?autoplay=1", "https://pestech28.github.io/back/tvazul/tvazul/ch15.png"],
+        ["https://media.joj.sk/embed/3al7RoqzT3y?autoplay=1", "https://pestech28.github.io/back/tvazul/ch15.png"],
         ["index2.html#https://live.cdn.joj.sk/live/andromeda/joj_sport-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch16.png"],
         ["index2.html#https://live.cdn.joj.sk/live/andromeda/joj_news-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch17.png"],
         ["index2.html#https://live.cdn.joj.sk/live/andromeda/family-720.m3u8", "https://pestech28.github.io/back/tvazul/ch18.png"],
