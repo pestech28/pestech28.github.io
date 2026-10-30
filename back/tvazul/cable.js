@@ -29,7 +29,7 @@
         ["index2.html#https://tnlive.sk/tn-live", "https://pestech28.github.io/back/tvazul/ch26.png"],
         ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_history-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch27.png"],
         ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch28.png"],
-        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch22.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch29.png"],
         ["index2.html#https://www.ta3.com/live", "https://pestech28.github.io/back/tvazul/ch30.png"],
         ["index.html", "NULL"],
     ];
@@ -104,7 +104,7 @@ function getwebchannels() {
         ["https://tnlive.sk/tn-live", "https://pestech28.github.io/back/tvazul/ch26.png"],
         ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_history-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch27.png"],
         ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch28.png"],
-        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch22.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch29.png"],
         ["https://www.ta3.com/live", "https://pestech28.github.io/back/tvazul/ch30.png"],
     ];
     return channeldb;
