@@ -26,9 +26,11 @@
         ["index2.html#https://media.cms.markiza.sk/embed/dajto-live?autoplay=any", "https://pestech28.github.io/back/tvazul/ch23.png"],
         ["index2.html#https://media.cms.markiza.sk/embed/krimi-live?autoplay=any", "https://pestech28.github.io/back/tvazul/ch24.png"],
         ["index2.html#https://media.cms.markiza.sk/embed/klasik-live?autoplay=any", "https://pestech28.github.io/back/tvazul/ch25.png"],
-        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_history-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch26.png"],
-        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch27.png"],
-        ["index2.html#https://www.ta3.com/live", "https://pestech28.github.io/back/tvazul/ch28.png"],
+        ["index2.html#https://tnlive.sk/tn-live", "https://pestech28.github.io/back/tvazul/ch26.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_history-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch27.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch28.png"],
+        ["index3.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch22.png"],
+        ["index2.html#https://www.ta3.com/live", "https://pestech28.github.io/back/tvazul/ch30.png"],
         ["index.html", "NULL"],
     ];
     return channeldb;
@@ -62,8 +64,10 @@ function getchinfo() {1
         ["Dajto", "Televízne relácie pre mužov"],
         ["Krimi", "Kriminálne seriály"],
         ["Klasik", "Klasické televízne relácie"],
+        ["TN Live", "Správy 24 hodín denne, 7 dní v týždni"],
         ["CS History", "Historický kanál"],
         ["CS Film", "Filmový kanál"],
+        ["CS Mystery", "Mysteriózne filmy"],
         ["TA3", "Správy 24 hodín denne, 7 dní v týždni"],
         ["Channel Name", "Channel Description"],
     ];
@@ -97,9 +101,11 @@ function getwebchannels() {
         ["https://media.cms.markiza.sk/embed/dajto-live?autoplay=any", "https://pestech28.github.io/back/tvazul/ch23.png"],
         ["https://media.cms.markiza.sk/embed/krimi-live?autoplay=any", "https://pestech28.github.io/back/tvazul/ch24.png"],
         ["https://media.cms.markiza.sk/embed/klasik-live?autoplay=any", "https://pestech28.github.io/back/tvazul/ch25.png"],
-        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_history-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch26.png"],
-        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch27.png"],
-        ["https://www.ta3.com/live", "https://pestech28.github.io/back/tvazul/ch28.png"],
+        ["https://tnlive.sk/tn-live", "https://pestech28.github.io/back/tvazul/ch26.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_history-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch27.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_film-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch28.png"],
+        ["index2.html#https://live.cdn.joj.sk/live/andromeda/cs_mystery-1080.m3u8", "https://pestech28.github.io/back/tvazul/ch22.png"],
+        ["https://www.ta3.com/live", "https://pestech28.github.io/back/tvazul/ch30.png"],
     ];
     return channeldb;
 }
